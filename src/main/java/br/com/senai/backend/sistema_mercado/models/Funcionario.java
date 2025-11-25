@@ -93,12 +93,4 @@ public class Funcionario {
    public void setData_nascimento(LocalDate data_nascimento) {
       this.data_nascimento = data_nascimento;
    }
-
-   public List<Mercadoria> getMercadorias() {
-      return mercadorias;
-   }
-
-   public void setMercadorias(List<Mercadoria> mercadorias) {
-      this.mercadorias = mercadorias;
-   }
 }

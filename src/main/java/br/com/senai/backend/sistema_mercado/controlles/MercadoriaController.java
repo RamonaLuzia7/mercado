@@ -43,7 +43,7 @@ public class MercadoriaController {
   }
    
   @DeleteMapping("/deletar/{id}")
-public String removerPorId(@PathVariable Integer id){
+ public String removerPorId(@PathVariable Integer id){
  if(mercadoriaService.removerPorId(id)){
    return "Mercadoria removida com sucesso";
  }
